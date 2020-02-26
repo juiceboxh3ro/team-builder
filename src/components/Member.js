@@ -8,6 +8,7 @@ const Members = ({members}) => {
           <h2>{ele.name}</h2>
           <p>{ele.email}</p>
           <p>{ele.role}</p>
+          <button id="edit">Edit</button>
         </div>
       ))}
     </div>

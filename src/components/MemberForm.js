@@ -29,7 +29,7 @@ const MemberForm = props => {
   };
 
   return (
-    <form id="member-form" onSubmit={submitForm}>
+    <form autoComplete="off" id="member-form" onSubmit={submitForm}>
       <label htmlFor="name">Name</label>
       <input onChange={handleChanges} id="name" name="name" value={member.name} placeholder="Your Name" type="text" />
       <br />
